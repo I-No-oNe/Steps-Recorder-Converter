@@ -8,10 +8,11 @@ Convert your Windows Steps Recorder output into a fully editable PowerPoint pres
 
 ```yml
 StepsRecorderConverter/
-├── .venv/                   # Python virtual environment
+├── LICENSE                  # Project license file (MIT)
+├── .gitignore               # Specifies intentionally untracked files to ignore
 ├── converter.py             # Main Python script for conversion
-├── README.md                # This documentation file
-├── requirements.txt        # Python dependencies list
+├── README.md                # Project documentation file
+├── requirements.txt         # Python dependencies list
 ├── runRecorder.bat          # Batch file to quickly launch Windows Steps Recorder
 ````
 
