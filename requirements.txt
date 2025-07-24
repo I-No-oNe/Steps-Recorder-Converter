@@ -1,0 +1,4 @@
+beautifulsoup4
+python-docx
+lxml
+pillow~=11.3.0
