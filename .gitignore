@@ -1,2 +1,5 @@
 .venv
 .idea
+*.pptx
+temp_steps_extract
+temp_steps_images
