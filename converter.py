@@ -6,6 +6,7 @@ from datetime import datetime
 from PIL import Image
 import io
 import shutil
+from pptx import Presentation
 
 DOWNLOADS_DIR = os.path.join(os.path.expanduser("~"), "Downloads")
 TEMP_EXTRACT_DIR = "temp_steps_extract"
@@ -75,7 +76,6 @@ def pixels_to_emu(px, dpi=96):
 
 
 def create_presentation(image_paths):
-    from pptx import Presentation
 
     prs = Presentation()
 
